@@ -3,6 +3,7 @@ import Experience from './sections/Experience.jsx'
 import FeatureCards from './sections/FeatureCards.jsx'
 import Hero from './sections/Hero.jsx'
 import AppShowcase from './sections/ShowcaseSection.jsx'
+import TechStack from './sections/TechStack.jsx'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <AppShowcase/>
       <FeatureCards/>
       <Experience/>
+      <TechStack/>
     </>
   )
 }

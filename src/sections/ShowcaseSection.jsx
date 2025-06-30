@@ -2,6 +2,8 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import Button from "../components/Button";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -79,6 +81,14 @@ const AppShowcase = () => {
               </div>
               <h2>Currency Exchange App</h2>
             </div>
+
+            <Button
+              text="See More Projects"
+              className="md:w-80 md:h-16 w-60 h-12"
+              id="works"
+              imgsrc='/images/arrow-right.svg'
+            />
+
           </div>
         </div>
       </div>

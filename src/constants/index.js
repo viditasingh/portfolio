@@ -9,7 +9,12 @@ const words = [
   { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
 ];
+const counterItems = [
+  { value: 8, suffix: "+", label: "CGPA Throughout" },
+  { value: 9, suffix: "+", label: "Completed Projects" },
+];
 
 export {
-  words
+  words,
+  counterItems
 };

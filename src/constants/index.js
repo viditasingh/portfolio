@@ -20,8 +20,8 @@ const navLinks = [
     link: "#work",
   },
   {
-    name: "Experience",
-    link: "#experience",
+    name: "Education",
+    link: "#education",
   },
   {
     name: "Skills",
@@ -61,10 +61,36 @@ const abilities = [
   },
 ];
 
+const expCards = [
+  {
+    review: "An exceptional coordinator and natural leader, Vidita seamlessly managed 50+ campus drives and weekly training sessions, showcasing stellar organizational and managerial skills that empowered 600+ students and elevated team success as a training and placement coordinator.",
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/logo1.png",
+    title: "Ajay Kumar Garg Engineering College",
+    date: "November 2022 - Present",
+    responsibilities: [
+      "Consistently maintained an 8+ CGPA while building a strong foundation in core Computer Science subjects such as Data Structures, Algorithms, DBMS, Operating Systems and Computer Networks.",
+      "Balanced academics with active involvement in extracurricular activities, demonstrating strong time management, multitasking, and dedication to holistic development.",
+    ],
+  },
+  {
+    review: "As Head of the Technical Team, Vidita demonstrated outstanding managerial skills by leading cross-functional teams, delivering complex technical projects on time and within budget, and effectively communicating progress to the school board.",
+    imgPath: "/images/exp2.jpeg",
+    logoPath: "/images/logo2.jpeg",
+    title: "Gurukul the School",
+    date: "April 2020 - June 2022",
+    responsibilities: [
+      "Maintained an excellent scholarly record throughout high school while actively participating in multiple clubs, including Interact Rotary Club, Tech Club, and the Organising Committee.",
+      "Demonstrated strong leadership and teamwork by balancing academics with active involvement in club initiatives, events, and social impact activities, reflecting commitment to both personal and community growth.",
+    ],
+  }
+];
+
 
 export {
   words,
   counterItems,
   navLinks,
-  abilities
+  abilities,
+  expCards
 };

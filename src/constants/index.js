@@ -14,7 +14,27 @@ const counterItems = [
   { value: 9, suffix: "+", label: "Completed Projects" },
 ];
 
+const navLinks = [
+  {
+    name: "Work",
+    link: "#work",
+  },
+  {
+    name: "Experience",
+    link: "#experience",
+  },
+  {
+    name: "Skills",
+    link: "#skills",
+  },
+  {
+    name: "About Me",
+    link: "#about-me",
+  },
+];
+
 export {
   words,
-  counterItems
+  counterItems,
+  navLinks
 };

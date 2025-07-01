@@ -50,22 +50,27 @@ const AppShowcase = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project2.png" alt="Ryde App Interface" />
-            </div>
-            <div className="text-content">
-              <h2>
-                Blogging made easy with a Powerful, User-Friendly App
-                called React Blog App
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                A modern, production-ready blog application built with React, featuring authentication, rich text editing, and cloud storage capabilities.
-              </p>
-            </div>
+            <a href="https://react-blog-app-pi-mauve.vercel.app/" target="_blank">
+              <div className="image-wrapper">
+                <img src="/images/project1.png" alt="Ryde App Interface" />
+              </div>
+              <div className="text-content">
+                <h2>
+                  Blogging made easy with a Powerful, User-Friendly App
+                  called React Blog App
+                </h2>
+                <p className="text-white-50 md:text-xl">
+                  A modern, production-ready blog application built with React, featuring authentication, rich text editing, and cloud storage capabilities.
+                </p>
+              </div>
+            </a>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
+            
+            <a href="https://github.com/viditasingh/Todo-using-Redux" target="_blank">
             <div className="project" ref={libraryRef}>
+              
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
@@ -74,13 +79,16 @@ const AppShowcase = () => {
               </div>
               <h2>Todo List App using Redux</h2>
             </div>
-
+            </a>
+            
+            <a href="https://github.com/viditasingh/Currency-Exchange" target="_blank">
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="Currency Exchange App" />
               </div>
               <h2>Currency Exchange App</h2>
             </div>
+            </a>
 
             <Button
               text="See More Projects"

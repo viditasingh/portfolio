@@ -1,4 +1,5 @@
 import NavBar from './components/NavBar.jsx'
+import About from './sections/About.jsx'
 import Experience from './sections/Experience.jsx'
 import FeatureCards from './sections/FeatureCards.jsx'
 import Hero from './sections/Hero.jsx'
@@ -15,6 +16,7 @@ function App() {
       <FeatureCards/>
       <Experience/>
       <TechStack/>
+      <About/>
     </>
   )
 }

@@ -4,8 +4,8 @@ A modern, interactive developer portfolio built with **React**, **Vite**, and **
 Showcasing projects, skills, education, and contact information with 3D and animated UI elements.
 
 ---
-## [Check it out](https://portfolio-git-main-vidita-singhs-projects.vercel.app/)
-[link to porfolio](https://portfolio-git-main-vidita-singhs-projects.vercel.app/)
+## [Check it out](https://portfolio-henna-iota-48.vercel.app/)
+[link to porfolio](https://portfolio-henna-iota-48.vercel.app/)
 
 
 ## 🚀 Features

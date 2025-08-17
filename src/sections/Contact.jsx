@@ -55,7 +55,7 @@ const Contact = () => {
                 className="w-full flex flex-col gap-7"
               >
                 <div>
-                  <label htmlFor="name">Your name</label>
+                  <label htmlFor="name">Your Name</label>
                   <input
                     type="text"
                     id="name"
@@ -167,7 +167,7 @@ const Contact = () => {
         href="https://github.com/viditasingh"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center p-6 rounded-xl hover:border hover:border-gray-300 transition-all duration-300 hover:shadow-md group"
+        className="flex items-center p-6 rounded-xl hover:border hover:border-gray-300 hover:shadow-md group"
       >
         <div className="w-12 h-12 bg-gradient-to-r from-gray-800 to-black rounded-full flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
           <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">

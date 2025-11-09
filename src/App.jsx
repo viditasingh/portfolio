@@ -7,6 +7,7 @@ import Footer from './sections/Footer.jsx'
 import Hero from './sections/Hero.jsx'
 import AppShowcase from './sections/ShowcaseSection.jsx'
 import TechStack from './sections/TechStack.jsx'
+import Testimonials from './sections/Testimonials.jsx'
 
 function App() {
 
@@ -16,8 +17,9 @@ function App() {
       <Hero/>
       <AppShowcase/>
       <FeatureCards/>
-      <Experience/>
+      <Testimonials/>
       <TechStack/>
+      <Experience/>
       <About/>
       <Contact />
       <Footer/>

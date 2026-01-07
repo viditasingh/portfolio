@@ -126,14 +126,14 @@ const testimonials = [
     name: "Leetcode",
     mentions: "@viditasingh",
     review:
-      "With 200+ LeetCode problems solved in C++, Java, JavaScript, and Python, I’ve built strong proficiency in core DSA topics like DP, Two Pointers, and Backtracking. I’ve also practiced SQL problem-solving to strengthen my data querying skills. I regularly practice and compete to improve my coding speed and aim for expert-level competitive programming.",
+      "With 200+ LeetCode problems solved in C++, Java, JavaScript, and Python, and a rating of 1,561, I’ve built strong proficiency in core DSA topics like DP, Two Pointers, and Backtracking. I’ve also practiced SQL problem-solving to strengthen my data querying skills. I regularly practice and compete to improve my coding speed and aim for expert-level competitive programming.",
     imgPath: "/images/logos/LeetCode.png"
   },
   {
     name: "CodeForces",
     mentions: "@viditasingh",
     review:
-      "As a rated ‘Pupil’ on Codeforces ( max rating ≈ 1253), I regularly participate in contest rounds and have already solved over 60 problems, reinforcing my competitive programming mindset. I’m focused on improving my contest performance and climbing towards expert-level status by combining speed, algorithmic thinking, and consistent practice.",
+      "As a rated ‘Pupil’ on Codeforces ( max rating ≈ 1360), I regularly participate in contest rounds and have already solved over 60 problems, reinforcing my competitive programming mindset. I’m focused on improving my contest performance and climbing towards expert-level status by combining speed, algorithmic thinking, and consistent practice.",
     imgPath: "/images/logos/codeforces.png"
   },
   {
